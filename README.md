@@ -20,13 +20,13 @@ Desenvolver um modelo de regressão preditiva utilizando o Microsoft Azure Machi
 
 3. **Treinamento Automatizado (AutoML):**
    Configuração de um job automatizado focado em prever a coluna `paes_vendidos`. Foram aplicados limites estritos de custo (15 minutos) e seleção específica do algoritmo XGBoost, garantindo um balanço entre performance e consumo de nuvem.
-   *(Adicione aqui a imagem do resultado do AutoML)*
-   `![AutoML](prints/02_automl_xgboost.png)`
+   *(Adicione aqui a imagem do resultado do AutoML / 02_automl_xgboost)*
+   ![AutoML](prints/02_automl_xgboost.png)
 
 4. **Implantação (Deploy em Tempo Real):**
    O modelo vencedor foi implantado como um Endpoint online. Testes foram realizados enviando requisições em tempo real para prever a demanda com base na temperatura, dia da semana e eventos externos.
-   *(Adicione aqui a imagem do teste do Endpoint)*
-   `![Endpoint](prints/03_endpoint_teste.png)`
+   *(Adicione aqui a imagem do teste do Endpoint/ 03_endpoint_teste)*
+   ![Endpoint](prints/03_endpoint_teste.png)
 
 ## 💡 Insights e Aprendizados
 - **Gestão de Custos:** A importância de provisionar clusters com zero nós mínimos de ociosidade e a exclusão imediata de endpoints após os testes.
