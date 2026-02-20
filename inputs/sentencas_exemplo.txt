@@ -1,0 +1,7 @@
+Exemplos de requisições estruturadas para o Endpoint de Previsão:
+
+Cenário 1: Manhã de Segunda-feira (Pico de Ida ao Trabalho)
+{"hora": "06:00", "dia_semana": "Segunda", "temperatura": 18, "evento_externo": "ida_trabalho"}
+
+Cenário 2: Tarde de Domingo (Movimento Normal)
+{"hora": "16:00", "dia_semana": "Domingo", "temperatura": 26, "evento_externo": "nenhum"}
