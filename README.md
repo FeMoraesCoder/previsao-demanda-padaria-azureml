@@ -15,7 +15,7 @@ Desenvolver um modelo de regressão preditiva utilizando o Microsoft Azure Machi
 
 2. **Criação do Pipeline no Designer:**
    Foi construído um pipeline estruturado contendo as etapas de seleção de colunas, divisão de dados (Split de 80/20), treinamento com `Linear Regression`, além de escoragem e avaliação do modelo.
-   *(Adicione aqui a imagem do seu pipeline visual)*
+   *![Pipeline](prints/01_pipeline_designer.png)*
    `![Pipeline](prints/01_pipeline_designer.png)`
 
 3. **Treinamento Automatizado (AutoML):**
